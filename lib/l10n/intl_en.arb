@@ -1,0 +1,396 @@
+{
+  "@@locale": "en",
+  "signin": "Duster Sign In",
+  "@signin": {
+    "description": "sign in"
+  },
+  "email": "Email Address",
+  "@email": {
+    "description": "email"
+  },
+  "enterEmail": "Enter Email",
+  "@enterEmail": {
+    "description": "Enter Email"
+  },
+  "password": "Password",
+  "@password": {
+    "description": "password"
+  },
+  "passwordError": "Passwords do not match",
+  "@passwordError": {
+    "description": "Password mismatch"
+  },
+  "submit": "Submit",
+  "@submit": {
+    "description": "submit"
+  },
+  "newHere": "New Here?",
+  "@newHere": {
+    "description": "new here"
+  },
+  "resetPassword": "Reset Password",
+  "@resetPassword": {
+    "description": "Reset Password"
+  },
+  "welcome": "Welcome",
+  "@welcome": {
+    "description": "Welcome"
+  },
+  "yourInfo": "Your Info",
+  "@yourInfo": {
+    "description": "Your Info"
+  },
+  "upload": "Documents",
+  "@upload": {
+    "description": "Docs"
+  },
+  "read": "PLEASE READ CAREFULLY",
+  "@read": {
+    "description": "Read"
+  },
+  "requiredDocs": "We will need the following documentation to complete your application",
+  "@requiredDocs": {
+    "description": "Required docs"
+  },
+  "beforeStart": "Make sure you have ALL documents available before you start your application",
+  "@beforeStart": {
+    "description": "Before you start"
+  },
+  "line1": "If you upload the wrong documentation your application wil be",
+  "@line1": {
+    "description": "Line 1"
+  },
+  "line2": "We only accept png && jpeg && pdf",
+  "@line2": {
+    "description": "Line 2"
+  },
+  "line3": "Before you continue please confirm:",
+  "@line3": {
+    "description": "Line 3"
+  },
+  "reject": "REJECTED!",
+  "@reject": {
+    "description": "Rejected"
+  },
+  "confirmDocs": "You have all the documentation to complete the application",
+  "@confirmDocs": {
+    "description": "Confirm docs"
+  },
+  "confirmCriminal": "You do not have a criminal record",
+  "@confirmCriminal": {
+    "description": "Criminal Record"
+  },
+  "confirmLegal": "You are legally allowed to work in {country}",
+  "@confirmLegal": {
+    "description": "Confirm Legal",
+    "placeholders": {
+      "country": {}
+    }
+  },
+  "understandIC": "You understand that you are an independant contractor",
+  "@understandIC": {
+    "description": "Understand IC"
+  },
+  "policyAgree": "You Agree to our terms & privacy policy",
+  "@policyAgree": {
+    "description": "Policy Agree"
+  },
+  "tickPolicy": "By ticking this box you agree to our",
+  "@tickPolicy": {
+    "description": "Tick Policy"
+  },
+  "tc": "terms of service",
+  "@tc": {
+    "description": "TC"
+  },
+  "saID": "ID Card or Book",
+  "@saID": {
+    "description": "Id Card"
+  },
+  "idDoc": "Passport/ Birth Certificate",
+  "@idDoc": {
+    "description": "ID Doc"
+  },
+  "idError": "Please enter a valid identification number",
+  "@idError": {
+    "description": "ID Error"
+  },
+  "addressProof": "Proof of address",
+  "@addressProof": {
+    "description": "Address Proof"
+  },
+  "bankLetter": "Bank letter",
+  "@bankLetter": {
+    "description": "Bank Letter"
+  },
+  "proPic": "Profile Picture",
+  "@proPic": {
+    "description": "Pro Pic"
+  },
+  "workPermit": "{residence} permit (If foreign national)",
+  "@workPermit": {
+    "description": "Work Permit",
+    "placeholders": {
+      "residence": {}
+    }
+  },
+  "dbsLetter": "DBS Letter",
+  "@dbsLetter": {
+    "description": "DBS Letter"
+  },
+  "rtw": "Right to Work (If foreign national)",
+  "@rtw": {
+    "description": "RTW"
+  },
+  "fromHere": "Are you a {country}?",
+  "@fromHere": {
+    "description": "Form Here",
+    "placeholders": {
+      "country": {}
+    }
+  },
+  "local": "{country}",
+  "@local": {
+    "description": "Local",
+    "placeholders": {
+      "country": {}
+    }
+  },
+  "foreign": "Foreign National",
+  "@foreign": {
+    "description": "Foreign"
+  },
+  "foreignOrLocal": "Are you foreign or local?",
+  "@foreignOrLocal": {
+    "description": "FORF"
+  },
+  "male": "Male",
+  "@male": {
+    "description": "Male"
+  },
+  "female": "Female",
+  "@female": {
+    "description": "Female"
+  },
+  "maleOrFemale": "Are you male or female",
+  "@maleOrFemale": {
+    "description": "MORF"
+  },
+  "gender": "Gender",
+  "@gender": {
+    "description": "Gender"
+  },
+  "uploadFiles": "Upload files to complete your application",
+  "@uploadFiles": {
+    "description": "Upload Files"
+  },
+  "register": "Register",
+  "@register": {
+    "description": "Register"
+  },
+  "name": "Name",
+  "@name": {
+    "description": "Name"
+  },
+  "enterName": "Enter Your Name",
+  "@enterName": {
+    "description": "Enter Name"
+  },
+  "surname": "Surname",
+  "@surname": {
+    "description": "Surname"
+  },
+  "enterSurname": "Enter Your Surname",
+  "@enterSurname": {
+    "description": "Enter Surname"
+  },
+  "cellphone": "Mobile",
+  "@cellphone": {
+    "description": "Mobile"
+  },
+  "enterCell": "Enter Your Mobile #",
+  "@enterCell": {
+    "description": "Enter Cell"
+  },
+  "idNum": "{id} Number",
+  "@idNum": {
+    "description": "ID Num",
+    "placeholders": {
+      "id": {}
+    }
+  },
+  "enterIdNum": "Enter Your {id} Number",
+  "@enterIdNum": {
+    "description": "Entert ID",
+    "placeholders": {
+      "id": {}
+    }
+  },
+  "confirmPassword": "Confirm Password",
+  "@confirmPassword": {
+    "description": "Confirm Password"
+  },
+  "nameError": "Name Cannot be blank",
+  "@nameError": {
+    "description": "Name Error"
+  },
+  "surnameError": "Surname cannot be blank",
+  "@surnameError": {
+    "description": "Enter Surname"
+  },
+  "emailError": "Please enter a valid email address",
+  "@emailError": {
+    "description": "Email Error"
+  },
+  "cellPhoneError": "Please enter a valid mobile number",
+  "@cellPhoneError": {
+    "description": "Cellphone Error"
+  },
+  "addressError": "Address cannot be blank",
+  "@addressError": {
+    "description": "Address Error"
+  },
+  "haveAccount": "Already have an account?",
+  "@haveAccount": {
+    "description": "Have Account"
+  },
+  "enterPostCode": "Enter Post Code",
+  "@enterPostCode": {
+    "description": "Enter Postcode"
+  },
+  "findPostCode": "Find Post Code",
+  "@findPostCode": {
+    "description": "Find Post Code"
+  },
+  "changePostCode": "Change Post Code",
+  "@changePostCode": {
+    "description": "Change Postcode"
+  },
+  "ukPostCode": "Please enter your UK postcode",
+  "@ukPostCode": {
+    "description": "UK Post Code"
+  },
+  "dePostCode": "Please enter German Post Code",
+  "@dePostCode": {
+    "description": "German PsotCode"
+  },
+  "noPostCode": "Please enter Norwegian Post Code",
+  "@noPostCode": {
+    "description": "Norway Postcode"
+  },
+  "enterAddressDetails": "Click to enter address details",
+  "@enterAddressDetails": {
+    "description": "Address Details"
+  },
+  "aboutAddress": "Please select address",
+  "@aboutAddress": {
+    "description": "About Address"
+  },
+  "saveAdr": "Save Address",
+  "@saveAdr": {
+    "description": "Save Address"
+  },
+  "typeCode": "Type Your Code",
+  "@typeCode": {
+    "description": "Type Code"
+  },
+  "typeAddress": "Please type your address/ start with street number",
+  "@typeAddress": {
+    "description": "Type Address"
+  },
+  "enterSAaddress": "Please enter South African addresss",
+  "@enterSAaddress": {
+    "description": "SA Address"
+  },
+  "enterUKPostCode": "Please enter your UK Post Code",
+  "@enterUKPostCode": {
+    "description": "UK Postcode"
+  },
+  "enterDEPostCode": "Please enter German Post Code",
+  "@enterDEPostCode": {
+    "description": "German Post code"
+  },
+  "enterNOPostCode": "Please enter Norwegian Post Code",
+  "@enterNOPostCode": {
+    "description": "Norway Postcode"
+  },
+  "changeRegion": "Change Region",
+  "@changeRegion": {
+    "description": "Change Region"
+  },
+  "compApp": "Complete Application",
+  "@compApp": {
+    "description": "Complete App"
+  },
+  "verifyEmail": "Please verify your email address;",
+  "@verifyEmail": {
+    "description": "Verify Email"
+  },
+  "checkEmail": "We have sent you an email to {email}. please check your spam just in case. If you have not received an email please resend verification email.",
+  "@checkEmail": {
+    "description": "Check email",
+    "placeholders": {
+      "email": {}
+    }
+  },
+  "resendEmail": "Re-send email verification",
+  "@resendEmail": {
+    "description": "Re-send email"
+  },
+  "verifyingEmail": "Please wait while we verify your email...",
+  "@verifyingEmail": {
+    "description": "Verifing"
+  },
+  "creatingAccount": "Please wait while we create your account...",
+  "@creatingAccount": {
+    "description": "creating"
+  },
+  "changeAddress": "Change Address",
+  "@changeAddress": {
+    "description": "changeg Address"
+  },
+  "currentAddress": "Current Address",
+  "@currentAddress": {
+    "description": "Current Address"
+  },
+  "pleaseSelectCountry": "Please select country",
+  "@pleaseSelectCountry": {
+    "description": "Prompt to select a country."
+  },
+  "sA": "South Africa",
+  "@sA": {
+    "description": "South Africa"
+  },
+  "uK": "United Kingdom",
+  "@uK": {
+    "description": "United Kingdom"
+  },
+  "nO": "Norway",
+  "@nO": {
+    "description": "Norway"
+  },
+  "dE": "Germany",
+  "@dE": {
+    "description": "Germany"
+  },
+  "enterEmailToReset": "Please enter your email to reset your password",
+  "@enterEmailToReset": {
+    "description": "Please enter your email to reset your password"
+  },
+  "submitting": "Submitting...",
+  "@submitting": {
+    "description": "Message displayed when a form is being submitted."
+  },
+  "sweeping": "Sweeping up...",
+  "@sweeping": {
+    "description": "Sweeping"
+  },
+  "backToLogin": "Back to Login",
+  "@backToLogin": {
+    "description": "Button text to navigate back to the login page."
+  },
+  "passwordTooShort": "Please make sure your password is longer than 7 characters",
+  "@passwordTooShort": {
+    "description": "Validation message when password length is insufficient."
+  }
+}
