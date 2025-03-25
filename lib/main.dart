@@ -1,6 +1,9 @@
 import 'dart:convert';
 import 'package:dusterapp/features/auth/views/registration_success_view.dart';
+import 'package:dusterapp/firebase_options.dart';
 import 'package:dusterapp/l10n/app_localizations.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:flutter_localization/flutter_localization.dart';
 import 'package:dusterapp/features/auth/views/login_view.dart';
@@ -10,9 +13,15 @@ import 'package:dusterapp/utils/secure_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+Future<void> _firebaseMessagingBackgroundHandler(RemoteMessage message) async {
+  await Firebase.initializeApp();
+}
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await dotenv.load(fileName: ".env");
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+  FirebaseMessaging.onBackgroundMessage(_firebaseMessagingBackgroundHandler);
   await FlutterLocalization.instance.ensureInitialized();
   runApp(ProviderScope(child: const MyApp()));
 }

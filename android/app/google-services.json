@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "362976332143",
+    "project_id": "duster-app",
+    "storage_bucket": "duster-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:362976332143:android:0f45ebe1204e749177809a",
+        "android_client_info": {
+          "package_name": "co.za.callitservices.dusterapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuvFVkceWrVrBkA_jFFVXQbj3yvekkaCk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

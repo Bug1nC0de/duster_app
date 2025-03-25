@@ -149,7 +149,6 @@ class AuthApi implements IAuthAPI {
       headers: headers,
       body: jsonEncode(body),
     );
-    print(response.body);
     return response;
   }
 
@@ -243,7 +242,6 @@ class AuthApi implements IAuthAPI {
       'Cookie': 'jwt=$token',
     };
     final response = await http.get(backend, headers: headers);
-
     return response;
   }
 

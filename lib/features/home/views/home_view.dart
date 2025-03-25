@@ -36,11 +36,14 @@ class _HomeViewState extends ConsumerState<HomeView> {
 
   List<Appointment> convertToAppointments(List<dynamic> data) {
     return data.map((booking) {
+      final a = booking['order'] != null ? "order" : 'reorder';
       return Appointment(
         startTime: DateTime.parse(booking['start']),
         endTime: DateTime.parse(booking['end']),
         subject: booking['title'] ?? 'No Title',
         id: booking['_id'],
+        recurrenceId: booking['order'] ?? booking['reorder'],
+        notes: a,
         color: Colors.blue, // Customize as needed
       );
     }).toList();
@@ -56,6 +59,9 @@ class _HomeViewState extends ConsumerState<HomeView> {
     _calendarController.view = CalendarView.month;
     _calendarController.displayDate = DateTime.now();
     _calendarController.selectedDate = null;
+    setState(() {
+      view = "month";
+    });
   }
 
   @override
@@ -116,14 +122,30 @@ class _HomeViewState extends ConsumerState<HomeView> {
                         view: CalendarView.month,
                         dataSource: BookingDataSource(appointmentList),
                         onTap: (CalendarTapDetails details) {
-                          if (details.targetElement ==
-                                  CalendarElement.calendarCell &&
-                              details.date != null) {
-                            _calendarController.view = CalendarView.day;
-                            _calendarController.displayDate = details.date;
-                            setState(() {
-                              view = "day";
-                            });
+                          if (view == "day") {
+                            if (details.targetElement ==
+                                    CalendarElement.appointment &&
+                                details.appointments != null &&
+                                details.appointments!.isNotEmpty) {
+                              final appointment =
+                                  details.appointments!.first as Appointment;
+                              print("Appointment ID: ${appointment.id}");
+                              print("Title: ${appointment.subject}");
+                              print("Start: ${appointment.startTime}");
+                              print("End: ${appointment.endTime}");
+                              print("End: ${appointment.recurrenceId}");
+                              print("End: ${appointment.notes}");
+                            }
+                          } else {
+                            if (details.targetElement ==
+                                    CalendarElement.calendarCell &&
+                                details.date != null) {
+                              _calendarController.view = CalendarView.day;
+                              _calendarController.displayDate = details.date;
+                              setState(() {
+                                view = "day";
+                              });
+                            }
                           }
                         },
                         monthViewSettings: const MonthViewSettings(
